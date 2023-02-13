@@ -1,11 +1,10 @@
 -- Create database -- 
 
-create database "cgsqltraining"
+create database "kpmgsqltraining"
 go 
 
-drop DATABASE  "cgsqltraining"
+drop DATABASE  "kpmgsqltraining"
 go
 
-use "cgsqltraining"
 
-drop table Customers.Customer_sample
+
