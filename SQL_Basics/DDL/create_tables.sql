@@ -1,4 +1,4 @@
- USE cgsqltraining
+ USE kpmgsqltraining
  GO
  
 -- Schemas to be created before the table creation in SQL server 

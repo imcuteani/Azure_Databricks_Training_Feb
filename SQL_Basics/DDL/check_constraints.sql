@@ -4,7 +4,7 @@
 -- ProductCost and ListPrice should be > 0 
 -- OrderDetail table, the tax and shipping amount value should be > 0 
 
-use "cgsqltraining"
+use "kpmgsqltraining"
 GO
 
 drop table Products.Product 
@@ -22,7 +22,7 @@ go
 
 -- Adding check constraints for existing table 
 
-use "cgsqltraining"
+use "kpmgsqltraining"
 go 
 
 alter table Orders.OrderDetail WITH CHECK

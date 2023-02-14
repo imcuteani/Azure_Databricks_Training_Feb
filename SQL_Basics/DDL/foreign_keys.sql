@@ -9,7 +9,7 @@
 
 -- Create table then add foreign keys to the existing tables -- 
 
-use cgsqltraining
+use kpmgsqltraining
 go 
 
 create table LookupTables.STATE

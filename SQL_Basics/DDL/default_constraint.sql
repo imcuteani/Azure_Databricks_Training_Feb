@@ -12,7 +12,7 @@
 -- A default values are used when a given value is typically assigned to a column
 -- if a column is defined as NOT NULL 
 
-use "cgsqltraining"
+use "kpmgsqltraining"
 go 
 
 drop table Orders.OrderHeader

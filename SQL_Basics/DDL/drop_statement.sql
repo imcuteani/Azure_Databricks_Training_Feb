@@ -1,9 +1,9 @@
-use sqltraining
+use kpmgsqltraining
 GO
 
 -- DROP database -- 
 
-drop database sqltraining
+drop database kpmgsqltraining
 GO
 
 drop table orders.OrderHeader
