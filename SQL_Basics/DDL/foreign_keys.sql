@@ -12,6 +12,8 @@
 use kpmgsqltraining
 go 
 
+--drop table LookupTables.STATE
+
 create table LookupTables.STATE
 (StateID int IDENTITY(1,1),
 StateProvince VARCHAR(50) NOT NULL UNIQUE,
@@ -19,6 +21,13 @@ CountryID int NOT NULL,
 StateProvinceAbbrev CHAR(2) NOT NULL,
 CONSTRAINT pk_stateprovince PRIMARY KEY (StateID))
 go 
+
+-- drop table LookupTables.Country 
+
+create table LookupTables.Country
+(CountryID int IDENTITY(1,1),
+CountryName VARCHAR(50) NOT NULL UNIQUE,
+CONSTRAINT pk_countryid PRIMARY KEY (CountryID))
 
 -- adding FOREIGN key 
 
