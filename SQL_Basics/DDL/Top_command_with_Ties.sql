@@ -33,7 +33,13 @@ Production.Product
 ORDER BY 
 ListPrice DESC; 
 
--- using TOP command WITH TIES to include the rows that match the values in the last row 
+-- using TOP command WITH TIES to include the rows that match 
+--the values in the last row. 
+-- with TIES may cause more rows to be returned than you specified in the expression. 
+
+-- for e.g. if you want to return the most expensive products, then you can use top 1. 
+-- however, if two or more products have the same prices as the most expensive product, 
+-- then we miss the other most expensive products in the result set. 
 
 SELECT TOP 3 WITH TIES 
 Name, 

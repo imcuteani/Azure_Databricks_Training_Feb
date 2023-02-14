@@ -3,7 +3,7 @@
 -- A unique key can accept null value 
 -- A table in SQL server can have more than one unique key constraint
 
-use "cgsqltraining"
+use "kpmgsqltraining"
 go 
 
 -- Create Unique Key constraint 

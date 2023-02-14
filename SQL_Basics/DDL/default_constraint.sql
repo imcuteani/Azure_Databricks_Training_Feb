@@ -10,7 +10,10 @@
 -- A default constraint is defined to specify a value for a column when a value is not given by the user 
 
 -- A default values are used when a given value is typically assigned to a column
--- if a column is defined as NOT NULL 
+-- if a column is defined as NOT NULL
+
+-- Check Constraints allow to restrict the range of values within a column in a table on SQL server
+-- TaxAmount and SubTotal, ShippingAmount values should be positive 
 
 use "kpmgsqltraining"
 go 
