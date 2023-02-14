@@ -10,6 +10,8 @@ GO
 -- Set IDENTITY_INSERT OFF 
 SET IDENTITY_INSERT [Customers].[Customer] OFF
 
+select * from Customers.Customer
+
 SET IDENTITY_INSERT [Customers].[CustomerAddress] ON
 INSERT INTO Customers.CustomerAddress
 (AddressId,
