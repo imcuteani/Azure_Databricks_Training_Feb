@@ -9,3 +9,5 @@ BEGIN TRANSACTION;
 DELETE FROM Customers.Customer WHERE FirstName = 'Matt'
 ROLLBACK TRANSACTION;
 
+select * from Customers.Customer
+
