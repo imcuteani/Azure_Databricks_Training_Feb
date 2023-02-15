@@ -66,7 +66,7 @@ EXCEPT
 select ProductID 
 FROM Production.ProductDocument 
 
--- alternative way 
+-- display all productIDs but non-matching from both the tables  
 
 select a.ProductID
 FROM Production.Product a 
