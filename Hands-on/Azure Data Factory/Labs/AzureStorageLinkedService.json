@@ -1,0 +1,6 @@
+{
+    "type": "AzureBlobStorage",
+    "typeProperties": {
+        "connectionString": "DefaultEndpointsProtocol=https;AccountName=cgstoragedemo;AccountKey=6Q0b+2Q+XEBjHngIDsxjvH5GxXSiBLUML+1tO62RP2Uro+6jUtYtxZ6MH8DfM3Hlo6ZGLe8Hc+YA+AStegGylg==;EndpointSuffix=core.windows.net"
+    }
+}

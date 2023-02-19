@@ -1,0 +1,25 @@
+# Create ADF through Azure CLI 
+
+az datafactory create --resource-group <your_resource_group> --factory-name <data_factory_name>
+
+
+# Data factory details can be found by using az datafactory show command 
+
+az datafactory show --resource-group <your_resource_group> --factory_name <factory_name>
+
+
+# Create a storage account container using the az storage create command 
+
+az storage account create --resource-group <your_resource_group> --name <your_data_factory_name> --location <location> 
+
+# create storage account container 
+
+az storage container create --resource-group cg_adf_hol --name cgstoragedemocontainer --account-name cgstoragedemo --auth-mode key
+
+# upload the sample data file to Azure storage container 
+
+az storage blob upload --account-name cgstoragedemo --name /home/anindita/emp.txt --container-name cgstoragedemocontainer --file emp.txt --auth-mode key
+
+# Create ADF linked service 
+
+az datafactory linked-service create --resource-group <your_resource_group> --factory-name <factory_name> --linked-service-name <linked_service_name> --properties @dataset_sql.json
