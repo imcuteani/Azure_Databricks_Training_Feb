@@ -4,15 +4,15 @@ mkdir spark
 
 # Download Apache spark 
 
-wget https://dlcdn.apache.org/spark/spark-3.3.0/spark-3.3.0-bin-hadoop2.tgz
+wget https://dlcdn.apache.org/spark/spark-3.2.3/spark-3.2.3-bin-hadoop2.7.tgz
 
 # Extract the folder 
 
-sudo tar -xvf spark-3.3.0-bin-hadoop2.tgz 
+sudo tar -xvf spark-3.2.3-bin-hadoop2.tgz 
 
 # Move to the $SPARK_HOME folder 
 
-sudo mv spark-3.3.0-bin-hadoop2 /usr/local/spark 
+sudo mv spark-3.2.3-bin-hadoop2 /usr/local/spark 
 
 # Add the details to ~/.bashrc 
 
